@@ -9,7 +9,11 @@ a {
   text-decoration: none;
 }
 
-header,nav,h2,.main-visual,footer{
+header,
+nav,
+h2,
+.main-visual,
+footer {
   font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
 }
 
@@ -208,4 +212,20 @@ footer {
 
 .footer-text {
   color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+  .social i {
+    color: green;
+  }
+}
+@media screen and (max-width: 768px) {
+  .social i {
+    color: red;
+  }
+}
+@media screen and (max-width: 425px) {
+  .social i {
+    color: blue;
+  }
 }
